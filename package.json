@@ -1,0 +1,39 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "websocket with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniket-yadav/websocketnodejs.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "websocket",
+    "html",
+    "css",
+    "chatroom",
+    "chatcorner",
+    "express",
+    "http",
+    "ws"
+  ],
+  "author": "aniket yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniket-yadav/websocketnodejs/issues"
+  },
+  "homepage": "https://github.com/aniket-yadav/websocketnodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
