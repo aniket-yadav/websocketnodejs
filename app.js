@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.set('view engine','ejs')
 
-const dbUrl = 'mongodb+srv://Aniket:aniket1234@nodetutorials.ey0dd.mongodb.net/ChatRoom?retryWrites=true&w=majority';
+const dbUrl = 'mongodb+srv://USER:PASSWORD@CLUSTER.ey0dd.mongodb.net/DBNAME?retryWrites=true&w=majority';
 
 mongoose.connect(dbUrl,{useNewUrlParser:true,useUnifiedTopology:true,useCreateIndex:true})
 .then((result) => {
