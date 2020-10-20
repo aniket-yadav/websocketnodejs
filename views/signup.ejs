@@ -1,15 +1,31 @@
 <%- include('header'); -%> 
 
 
-<section class="signup">
-    <form >
-        <label for="username">Enter username</label>
-        <input type="text" id="username">
-        <label for="password">Enter password</label>
-        <input type="password" id="password">
-        <label for="password-confirm">Confirm password</label>
-        <input type="password" id="password-confirm">
-        <button>signup</button>
-    </form>
+<section >
+    
+        <form  class="signup">
+            <div class="form-group ">
+                <label for="semail">Enter email</label>
+                <input type="email" id="semail" class="form-control" name="semail" >
+                <div class="signupEmailError"></div>
+            </div>
+            <div class="form-group">
+                <label for="susername">Enter username</label>
+                <input type="text" id="susername" class="form-control" name="susername" >
+                <div class="signupUsernameError"></div>
+            </div>
+            <div class="form-group">
+                <label for="spassword">Enter password</label>
+                <input type="password" id="spassword" class="form-control" name="spassword" >
+                <div class="signupPasswordError"></div>
+            </div>
+            <div class="form-group">
+                <label for="sconfirmpassword">Confirm password</label>
+                <input type="password" id="sconfirmpassword"  class="form-control" name="sconfirmpassword" >
+                <div class="signupConfirmPasswordError"></div>
+            </div>
+            <button class=" btn btn-primary rounded-pill " >sign up</button>
+        </form>
+   
 </section>
 <%- include('footer'); -%> 

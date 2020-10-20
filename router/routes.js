@@ -1,9 +1,9 @@
 const express = require('express');
 const controllers = require('../controller/contollers');
-
+const {requireAuth} = require('../middleware/authMiddleware');
 const router = express.Router();
 
-router.get('/',controllers.getHomePage)
+router.get('/',requireAuth,controllers.getHomePage)
 router.get('/login',controllers.getLoginPage)
 router.get('/signup',controllers.getSignupPage)
 

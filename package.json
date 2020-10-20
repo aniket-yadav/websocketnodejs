@@ -30,8 +30,16 @@
   },
   "homepage": "https://github.com/aniket-yadav/websocketnodejs#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "ejs": "^3.1.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "validator": "^13.1.17",
+    "websocket": "^1.0.32"
   },
   "devDependencies": {
     "nodemon": "^2.0.5"

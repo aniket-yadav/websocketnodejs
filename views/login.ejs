@@ -1,12 +1,18 @@
 <%- include('header'); -%> 
 
-<section class="login">
-    <form >
-        <label for="username">Enter username</label>
-        <input type="text" id="username">
-        <label for="password">Enter password</label>
-        <input type="password" id="password">
-        <button>login</button>
+<section >
+    <form  class='login'>
+        <div class="form-group  ">
+            <label for="lemail">Enter email</label>
+            <input type="email"  class="form-control" id="lemail" name="lemail" >
+            <div class="loginEmailError"></div>
+        </div>
+        <div class="form-group">
+            <label for="lpassword">Enter password</label>
+            <input type="password" id="lpassword" class="form-control" name="lpassword" >
+            <div class="loginPasswordError"></div>
+        </div>
+        <button class=" btn btn-primary rounded-pill ">login</button>
     </form>
 </section>
 <%- include('footer'); -%> 

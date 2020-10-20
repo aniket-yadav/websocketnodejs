@@ -1,14 +1,22 @@
 <%- include('header'); -%> 
 
 <section >
-<div class="msg">
-    <ul>
+<div class="container col-md-10 " >
+    <ul id="chats">
         
     </ul>
 </div>
-<div class="send">
-    <input type="text">
-    <button>send</button>
+<div class="container 10" >
+    <form >
+        <div class="row">
+
+            <div class="form-group col-8 ">
+                <input type="text" id="msg" class ="form-control" required>
+                <div class="chatMsgError"></div>
+            </div>
+            <button class="btn btn-primary rounded-pill ml-2 pl-5 pr-5 pt-0 pb-0" id="send-btn">send</button>  
+        </div>
+    </form>
 </div>
 </section>
 

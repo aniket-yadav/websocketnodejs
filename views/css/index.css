@@ -1,4 +1,4 @@
-body{
+/* body{
     background: #fefefe;
     margin: 0 10px;
     letter-spacing: 1px;
@@ -106,4 +106,9 @@ footer{
     margin-top: 20px;
     font-size: 1.5em;
     height: 50px;
-} 
+}  */
+
+#chats{
+    list-style-type: none;
+    text-align: left;
+}
